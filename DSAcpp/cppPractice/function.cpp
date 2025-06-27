@@ -2,11 +2,10 @@
 using namespace std;
 
 void sayHello(){
-    cout<<"hel lo world!"<<endl;
-
+    cout<<"hello world!"<<endl;
 }
 
 int main(){
     sayHello();
-    return 0;
+return 0;
 }
