@@ -5,4 +5,10 @@ let port = 3000;
 app.listen(port, ()=> {
     console.log(`app listening on port ${port} `);
 })
-console.dir(app);;
+
+app.use((re, res)=> {
+    console.log("request received");
+});
+
+
+console.dir(app);
