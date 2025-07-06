@@ -1,5 +1,7 @@
-const student1 = {
+const per1 = {
     name : "nitesh",
-    age : 14,
-    return this.name;
-}
+    age : 21,
+    getname: function (){
+        return this.name;
+    },
+};
