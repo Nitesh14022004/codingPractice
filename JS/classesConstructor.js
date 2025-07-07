@@ -5,7 +5,7 @@ class Person{
     }
     talk(){
         console.log(`My name is ${this.name}`)
-    }
-}
+    };
+};
 
 let p1 = new Person("Nitesh", 21);
